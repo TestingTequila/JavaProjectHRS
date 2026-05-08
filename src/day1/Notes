@@ -1,0 +1,6 @@
+Variable is like a box, jar or container that can hold something
+
+  How to create a variable ?
+
+    1. dataType variableName = value;  // use this when you know exact thing you want to store
+    2. dataType variableName;          // use this when you don't know exact thing to store at that point of time

@@ -1,0 +1,27 @@
+Data Types:
+    Primitive Data Types
+       -We will know in advance how much memory that particular data type will consume
+       -We don't need object to use them
+       -INTEGER NUMBERS[byte, short, int, long],
+        byte - 1 byte or 8 bits
+               -128 to 127
+
+        DECIMAL NUMBER[float, double],
+        SINGLE CHARACTER[char],
+        true/false [boolean]
+
+    Non-Primitive Data Types
+       -We will not know in advance how much memory that particular data type will consume
+       -We will need object to use them
+       -Class, Object, String.......
+
+
+       HOW TO CHOOSE DATA TYPE TO STORE A VALUE:
+        1. are we going to use some mathematical operation over that numbers - pick int data type
+        2. if we are not going to apply some mathematical operation on the numbers
+            see if this number lies in the range of single or multiple data types
+              if single range - pick it
+              if multiple select the one that takes least memory
+
+
+
