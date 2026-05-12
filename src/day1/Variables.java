@@ -9,5 +9,6 @@ public class Variables {
         //long x = 10; 8 byte or 64 bits
 
         long mobileNumber=  8860418225L;
+        System.out.println(mobileNumber);
     }
 }

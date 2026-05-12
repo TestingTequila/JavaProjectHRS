@@ -1,0 +1,12 @@
+float => 4 bytes
+         6-7 decimal places
+
+double => 8 bytes
+          up to 15 decimal places
+
+
+char   => 2 bytes
+          [a-z][A-Z][0-9][!@#$%^&*()_-+=]
+
+boolean => ~1 bit
+            true / false
