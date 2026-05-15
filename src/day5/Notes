@@ -1,0 +1,13 @@
+Statements: Everytime we have decision/s we will be using statements
+   if-Else Statement: Only when we have to make single decision, we use If-Else Statement
+   multiple if else if Statement
+   Switch Statement
+
+   if(condition)
+   {
+       code here will execute only if the given condition is true
+   }
+   else
+   {
+       code here will execute only if the given condition is false
+   }
