@@ -1,0 +1,33 @@
+Variables: are boxes meant to store some value
+Statements: They are used to make decisions
+Loops:
+a) if we have group of something
+b) if we have to perform some action over that group
+
+a) while loop
+
+variable;
+while(condition)
+{
+   this will execute only if condition is true
+   I/D;
+}
+
+b) for loop
+for(variable;condition;I/D)
+{
+   this will execute only if condition is true
+}
+
+
+advanced for loop
+
+
+//If we are not sure about in how many iterations, the desired condition will be me - While
+
+//If we are sure about in how many iterations, the desired condition will be me - for
+
+
+// statements and loops - covered
+// Arrays               - start tomorrow
+// methods              - start later
