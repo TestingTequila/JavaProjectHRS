@@ -1,0 +1,34 @@
+Arrays: Boxes that can hold multiple values unlike variables that can hold only single value at a time
+         If we have group of something with similar data type - Store them as Array
+
+STATIC ARRAY:
+12, 34, 56, 78, 93
+
+int a = 12;
+int b =34;
+int c= 56;
+int d = 78;
+int e = 93;
+
+
+
+56
+
+dataType variableName = value;
+
+int x=56;
+
+
+12, 34, 56, 78, 93
+
+1. dataType[] arrayName = {value1, value2, value3, value4.......} // we use this when we know the exact values we want to store
+2. dataType[] arrayName = new dataTYpe[countOfValuesWeWantToStore]; // we use this syntax if i don't know exact values that i want to store
+
+int x;
+
+int x[];
+
+
+int x = 12;
+
+int y;

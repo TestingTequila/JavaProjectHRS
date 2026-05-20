@@ -20,7 +20,11 @@ for(variable;condition;I/D)
 }
 
 
-advanced for loop
+c) advanced for loop
+   for(dataType x :nameOfArray)
+   {
+       action
+   }
 
 
 //If we are not sure about in how many iterations, the desired condition will be me - While

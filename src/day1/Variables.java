@@ -11,7 +11,6 @@ public class Variables {
         long mobileNumber=  8860418225L;
         System.out.println(mobileNumber);
 
-
         int number =100; //dataType variableName = value;
 
         int x; //dataType variableName;
