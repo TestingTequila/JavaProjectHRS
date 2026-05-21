@@ -1,0 +1,45 @@
+What is Class : Its just a template
+What is Object: Every copy of the class that we create is called its object
+
+Relationship b/w Class and Object: A class is a template and copies of that template is called its object
+
+Object w.r.t main()
+
+===============================================
+
+Hasham
+Ruth
+James
+
+
+First of all we have to create a location where we can create a copy/object of an existing class, this location must have main();
+
+NameOfTheClassWhoseCopyWeWantToCreate nameOftheCopy = new NameOfTheClassWhoseCopyWeWantToCreate();
+
+
+Vehicle
+
+Vehicle v1= new Vehicle();
+Vehicle v2= new Vehicle();
+Vehicle v3= new Vehicle();
+Vehicle v4= new Vehicle();
+Vehicle v5= new Vehicle();
+
+
+Company
+
+Company comp1= new Company();
+Company comp2= new Company();
+Company comp3= new Company();
+Company comp4= new Company();
+Company comp5= new Company();
+Company comp6= new Company();
+
+
+Select
+
+Select sel1= new Select();
+sel1.
+
+
+JanBask jb1=new JanBask();

@@ -19,7 +19,6 @@ for(variable;condition;I/D)
    this will execute only if condition is true
 }
 
-
 c) advanced for loop
    for(dataType x :nameOfArray)
    {
