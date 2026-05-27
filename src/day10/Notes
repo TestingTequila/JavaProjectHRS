@@ -1,0 +1,21 @@
+Making Tea:
+
+Sugar
+Tea Leaves
+Milk Powder
+
+
+Methods: Methods are actions performed over class variables
+
+Syntax:
+
+     accessModifier[public/private/protected] returnType[void/dataTypes] methodName(can/t parameters)
+     {
+           action over class variables
+     }
+
+
+Access Modifier
+
+   Bus ==> Public Transport [anyone]
+   Car ==> Private Transport [individual]
