@@ -1,0 +1,33 @@
+OOPs: Object Oriented Programming Structure
+
+-> our data will be safe
+-> we can use the same method name and have different output
+-> we can re-use the methods which are used in repeat mode
+-> managing our code becomes a lot easier
+
+ -Encapsulation: variables and methods needs to be placed within the class
+   -Data Hiding
+               : data[variables] should be hidden from other classes by making them private
+               : we need to set the value of variables through the methods
+
+ -Polymorphism
+   -method overloading
+   -method overriding
+
+ Inheritance
+   -abstraction
+   -interface
+
+A------------------------------------>B
+
+i) He will not follow the traffic rules
+   -> He might get into some accident because of his mistake
+   -> He might be caught by traffic cop
+   -> He might be fined by traffic cop
+   -> He might be jailed for not following traffic rules
+   -> He might get into into some road rage
+   -> He might be both caught, fined & jailed
+   -> He might reach his destination without any of the above action happening
+
+ii) He will follow the traffic rules
+    -> He will reach the destination
