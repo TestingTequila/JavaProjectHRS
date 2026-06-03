@@ -1,0 +1,21 @@
+OOPs
+
+Polymorphism[Many+forms]
+  -Method overloading: In a class we can have two or more methods with same name provided
+                       their signatures are different
+
+                       accessModifier returnType methodName(parameters)
+                       {
+                       }
+
+                       How to make signatures different:
+                          -by increasing the count of parameters
+                          -by changing the data type of parameters
+                          -by changing the order of parameters
+
+                       Method overloading is also known as Compile time Polymorphism
+
+                       Method overloading happens within the same class
+
+                       => Can we overload the main method
+  -Method overriding
