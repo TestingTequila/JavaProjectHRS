@@ -1,0 +1,10 @@
+in a class we can have static & non-static variables & methods
+  and to call anything that exists in a class we have two options
+      => If its non-static
+          create object of the class and call non-static variables & methods using object reference variable
+
+      => if its static
+           call the static variable and method directly through the class name
+
+
+

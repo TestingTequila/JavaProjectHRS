@@ -1,0 +1,7 @@
+CONSTRUCTORS
+1. Name of the construct is same as the name of the class to which it belongs to
+2. Constructor will have no return type including void
+
+Constructors are called automatically the moment object of that class is created, this means
+we don't have to call constructors explicitly the way we call methods
+
