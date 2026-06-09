@@ -1,0 +1,9 @@
+Encapsulation:
+
+variables and methods should be created within the class
+The variables should be made private
+
+1. setter(setting) + getter  method(getting)
+2. constructor(Setting)  + getter method(getting)
+3. constructor(Setting) + setter method(update) + getter method(Getting)
+4. private method within public method
