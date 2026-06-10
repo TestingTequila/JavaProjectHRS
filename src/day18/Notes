@@ -1,0 +1,13 @@
+USE OF 'this' keyword
+
+1. To differentiate between global variables and parameters with the same name
+2. To call one constructor inside of other constructor
+    -> Constructor calling should always be the first statement inside another constructor
+    -> we cannot call a constructor inside of a method
+3.  We can call non-static method inside of another non-static method of the same class using this keyword
+      -> either using class name [if called method is static]
+      -> either through object reference variable [non -static method]
+      -> using this keyword [non-static method inside of other non static method of the same class]
+
+4. Builder pattern
+
