@@ -63,6 +63,10 @@ public class TestInheritance {
         h.multiplication(32, 2);
         h.division(32, 2);
 
+        System.out.println("=======Abstract Class================");
+
+        //Base base =new Base(); We Cannot create object of an Abstract class
+        //base.addition(12,4);
 
     }
 }

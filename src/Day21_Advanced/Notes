@@ -1,0 +1,9 @@
+OOPs
+Polymorphism:
+   method overloading: methods with same name but different signature [happens within the same class]: compile time polymorphism
+   method overriding : methods with same name but different implementation [happens b/w Parent-Child Class]:run time polymorphism
+
+
+   1. final was used to assign value to variable that cannot be changed
+   2. final is used to prevent method overriding
+   3. final is used to prevent entire class from being inherited/ not to make a class as parent of some other class

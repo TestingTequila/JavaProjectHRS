@@ -1,0 +1,12 @@
+
+//Class: this will hold only and only concrete methods
+//Abstract Class: can hold Concrete + Abstract Methods both
+//Interface: this will hold only and only Abstract Methods
+
+
+Base[addition/subtraction/multiplication/division] --extends-> A/B/C/D
+Base(Abstract) [abstract addition(different)/subtraction/multiplication/division] --extends-> A/B/C/D
+Base(Interface) [abstract addition(different)/subtraction(different)/multiplication(different)/division(different)] --implements-> A/B/C/D
+
+
+Multiple Inheritance is not possible among classes in Java
