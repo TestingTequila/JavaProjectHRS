@@ -15,6 +15,9 @@ public class TestAutomobile {
         car.stop();
         car.refuel();
         car.isAutomatic();
+        Car.billing();// Car billing
+        car.display();
+        System.out.println(car.age); //45
 
         System.out.println("=================BMW=======================");
 
@@ -23,6 +26,9 @@ public class TestAutomobile {
         bmw.stop();
         bmw.refuel();
         bmw.isAutomatic();
+        BMW.billing(); // BMW billing
+        bmw.display();
+        System.out.println(bmw.age);//55
 
         System.out.println("=================Vehicle & Car [P-C]=======================");
 
@@ -34,10 +40,13 @@ public class TestAutomobile {
         car1.stop();   //car stop
         car1.refuel(); //car refuel
         car1.isAutomatic(); //BMW isAutomatic
+        car1.billing(); //Car billing....
+        car1.display();
+        System.out.println(car1.age);//55[if overridden else 45]
 
 
-       BMW bmw1 = (BMW) new Car(); // DownCasting is not possible in Java:ClassCastException
-       //DownCasting may be allowed at compile time but at runtime this will throw exception:  ClassCastException
+        //BMW bmw1 = (BMW) new Car(); // DownCasting is not possible in Java:ClassCastException
+        //DownCasting may be allowed at compile time but at runtime this will throw exception:  ClassCastException
 
     }
 }

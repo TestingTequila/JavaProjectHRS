@@ -1,0 +1,47 @@
+Selenium = Java + Element Locators[HTML]
+
+Element Locators
+Xpath: Is a technique to get the address of any web element on a web page.
+
+1. //tagName[@attributeName = 'value']
+2. //tagName[text()='innerText']
+3. //tagName[contains(@attribute/text(), 'value/innerText')]
+
+Email HTML
+<input type="text" name="email" value="" placeholder="E-Mail" id="input-email" class="form-control">
+
+1. //input[@id = 'input-email']
+3. //input[contains(@name, 'email') and contains(@id, 'input-email')]
+
+
+Password HTML
+<input type="password" name="password" value="" placeholder="Password" id="input-password" class="form-control">
+1. //input[@id = 'input-password']
+3. //input[contains(@name, 'password')]
+4. //input[contains(@type, 'password')]
+5. //input[@placeholder = 'Password']
+
+
+forgotten password html
+<a href="https://janbaskdemo.com/index.php?route=account/forgotten">Forgotten Password</a>
+
+1. //a[@href = 'https://janbaskdemo.com/index.php?route=account/forgotten']
+2. //a[text()='Forgotten Password']
+3. //a[contains(@href, 'https://janbaskdemo.com/index.php?route=account/forgotten')]
+4. //a[contains(text(), 'Forgotten Password')]
+
+
+<input type="submit" value="Login" class="btn btn-primary">
+1. //input[@type = 'submit']
+3. //input[contains(@value, 'Login')]
+
+=======FACEBOOK================================
+<span class="x1lliihq x193iq5w x6ikm8r x10wlt62 xlyipyv xuxw1ft">Create new account</span>
+
+1. //span[@class = 'x1lliihq x193iq5w x6ikm8r x10wlt62 xlyipyv xuxw1ft'] - No
+2. //span[text()='Create new account'] - Yes
+3. //span[contains(@class, 'x1lliihq x193iq5w x6ikm8r x10wlt62 xlyipyv xuxw1ft')] - No
+4. //span[contains(text(), 'Create new account')] - Yes
+
+
+

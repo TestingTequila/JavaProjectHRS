@@ -1,0 +1,60 @@
+Automation[Selenium] = Java + Element Locators [html]
+
+html
+element location
+
+
+<tagName attribute1 = 'value1' attribute2 = 'value2' attribute2 = 'value3'................/>
+<tagName attribute1 = 'value1' attribute2 = 'value2' attribute2 = 'value3'................></tagName>
+<tagName attribute1 = 'value1' attribute2 = 'value2' attribute2 = 'value3'................>inner text</tagName>
+
+
+
+<input type="text" name="firstname" value="" placeholder="First Name" id="input-firstname" class="form-control">
+
+tagName = input
+how many attributes = 6
+what are those attributes - type/name/value/placeholder/id/class
+value Of Placeholder Attribute: First Name
+
+which attributes value is 'form-control' : form-control
+
+
+<input type="tel" name="telephone" value="" placeholder="Telephone" id="input-telephone" class="form-control">
+
+tagName = input
+how many attributes = 6
+
+value of id attribute : input-telephone
+
+which attribute has the value as telephone : name
+
+tagName = select
+countOfAttributes = 4
+value of style attribute =  appearance: menulist-button; width: 744px; position: absolute; opacity: 0; height: 36px; font-size: 12px;
+
+country_id => name
+
+<select name="country_id" id="input-country" class="form-control hasCustomSelect" style="appearance: menulist-button; width: 744px; position: absolute; opacity: 0; height: 36px; font-size: 12px;">
+
+<a href="https://janbaskdemo.com/index.php?route=account/forgotten">Forgotten Password</a>
+
+innerText = Forgotten Password
+tagName = a
+count of attributes = 1[href]
+href value = https://janbaskdemo.com/index.php?route=account/forgotten
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
